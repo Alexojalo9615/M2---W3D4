@@ -1,0 +1,143 @@
+header {
+
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: blue;
+    font-size: 18px;
+}
+
+section {
+
+    display: flex;
+    color: black;
+
+
+}
+
+
+
+table {
+
+    width: auto;
+    font-family: fantasy;
+    border-radius: 30px;
+}
+
+.riga {
+    width: 500px;
+    height: 200px;
+
+
+}
+
+
+th {
+
+    font-size: 20px;
+}
+
+th,
+td {
+    border-collapse: collapse;
+    border: solid 2px black;
+    padding: 5px 15px;
+}
+
+.img {
+
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.img:hover {
+
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+}
+
+.ancora {
+
+    background-color: blue;
+}
+
+.immagine {
+
+    visibility: hidden;
+}
+
+
+.prezzo {
+
+    color: blue;
+
+}
+
+
+.text{
+    font-weight: lighter; 
+font-size: 13px;
+}
+
+#bottone{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+button {
+
+    color: white;
+    background-color: black;
+    cursor: grab;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: monospace;
+
+
+}
+
+button:hover {
+
+    background-color: rgb(83, 75, 75);
+    color: azure;
+
+}
+
+#oro {
+    color: gold;
+}
+
+#argento {
+
+    color: silver;
+}
+
+#rosso {
+
+    color: red;
+}
+
+#verde {
+
+    color: green;
+}
+
+#blu {
+    color: blue;
+}
+
+#footer {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 50px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: fantasy;
+}
